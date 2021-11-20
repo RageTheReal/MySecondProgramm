@@ -42,5 +42,12 @@ namespace Calculator
                
         
         }
+        /// <summary>
+        /// kommentar
+        /// </summary>
+        /// <param name="x"></param>
+        /// <param name="y"></param>
+        /// <returns></returns>
+        static int Subtraktion(int x, int y) { return x - y; }
     }
 }
