@@ -12,6 +12,7 @@ namespace Calculator
                 Console.WriteLine("############");
                 Console.WriteLine("1) Addition");
                 Console.WriteLine("2) Subtraktion");
+                Console.WriteLine("3) Schliesse das Programm");
                 Console.WriteLine("#############");
                 Console.WriteLine("Deine eingabe:");
 
@@ -25,6 +26,8 @@ namespace Calculator
                         break;
                     case "2":
                         break;
+                    case "3":
+                        return;
                     default:
                         break;
                 }
